@@ -23,7 +23,7 @@ services:
         build: .
         container_name: mysparklab
         volumes:
-            - ~/workspace/apaches/advanced-analytics-with-spark:/home/jovyan/work
+            - ~/workspace/apache-project/advanced-spark:/home/jovyan/work
         ports:
             - 8889:8888
             - 4040:4040

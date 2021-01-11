@@ -1,0 +1,4 @@
+[submodule "book-samples"]
+	path = book-samples
+	url = https://github.com/yangsuh/aas.git
+	branch = master
