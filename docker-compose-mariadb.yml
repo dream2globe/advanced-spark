@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    mariadb:
+        image: mariadb:latest
+        container_name: mariadb
+        volumes:
+            - /var/lib/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: admin
+            MYSQL_DATABASE: metastore
+        ports:
+            - 3306:3306
